@@ -23,7 +23,6 @@ export default function Item(props){
   }
 
   return <div style={{color: failed ? 'red': 'black'}}>
-    <h1>{item.currency}</h1>
-    <h2> {`Rate: ${rate}`}</h2>
+    <h1>{item} {`Rate: ${rate}`}</h1>
   </div>
 }
