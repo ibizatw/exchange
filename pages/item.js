@@ -3,7 +3,7 @@ import { useState ,useEffect} from "react"
 export default function Item(props){
 
 
-  const {item,queue} = props
+  const {item} = props
   const [rate, setRate] = useState(0)
   const [failed, setFailed] = useState(false)
 
